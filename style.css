@@ -1,10 +1,10 @@
 #buttons{
-    position: relative;
+    position: absolute;
     cursor: pointer;
 }
 
-#townButton, #dungeonButton, #kingButton, #tavernButton, #fortuneTellerButton{
-    position: absolute;
+#townButton, #dungeonButton, #kingButton, #tavernButton, #fortuneTellerButton, #enterButton, #forestButton, #storeButton, #choiceButton1, #choiceButton2{
+    position: relative;
     cursor: pointer;
 }
 
@@ -13,7 +13,7 @@
     background-color: #a5672f;
     background-image: linear-gradient(#b6730e, #ae8651);
     border: solid, 3px, #a5672f;
-    bottom: 350px;
+    bottom: 365px;
     left: 500px
 }
 
@@ -21,16 +21,16 @@
     background-color: #5b5255;
     background-image: linear-gradient(#3e373a, #6a5f63);
     border: solid, 3px, #5b5255;
-    bottom: 210px;
-    left: 600px;
+    bottom: 240px;
+    left: 520px;
 }
 
 #kingButton{
     background-color: #dac10e;
     background-image: linear-gradient(#c6ae0d, #e4c90f);
     border: solid, 3px, #dac10e;
-    bottom: 350px;
-    left: 650px
+    bottom:380px;
+    left: 480px
 }
 
 #tavernButton{
@@ -38,7 +38,7 @@
     background-image: linear-gradient(#9b4f0a, #ad6a37);
     border: solid, 3px, #7e4509;
     bottom: 290px;
-    left: 700px
+    left: 450px
 }
 
 #fortuneTellerButton{
@@ -46,7 +46,23 @@
     background-image: linear-gradient(#8124bb, #ad37ad);
     border: solid, 3px, #7e097e;
     bottom: 290px;
-    left: 800px
+    left: 725px
+}
+
+#forestButton {
+    background-color: #225e12;
+    background-image: linear-gradient(#378c4c, #2ba842);
+    border: solid, 3px, #225e12;
+    bottom: 290px;
+    left: 400px
+}
+
+#storeButton {
+    background-color: #0e4ed1;
+    background-image: linear-gradient(#0d6ce4, #0f8cf5);
+    border: solid, 3px, #0e4ed1;
+    bottom: 240px;
+    left: 580px
 }
 
 #stats{
